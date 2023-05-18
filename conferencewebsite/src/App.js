@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { Homepage } from './components/Homepage';
 import { ImpDates } from './components/ImpDates';
 import { PreviousEvents } from './components/PreviousEvents';
@@ -10,7 +10,7 @@ import Navbar from './components/NavBar';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
       <Navbar/>
         <Routes>
           <Route path='/' element={<Homepage />}/>
@@ -19,7 +19,7 @@ function App() {
           <Route exact path='/program' element={<Program />}/>
           <Route exact path='/submission' element={<Submission />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
