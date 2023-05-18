@@ -2,6 +2,10 @@ import React from 'react'
 import Particles from 'react-particles';
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
+import logoIIITL from "../components/IIITL.png"
+import logoNitP from "../components/National_Institute_of_Technology,_Patna_Logo.png"
+import logoIIITsricity from "../components/logoIIITsricity.jpg"
+import mainakPhoto from "../components/Dr.-Mainak-Adhikari.jpg"
 export const Homepage = () => {
     const particlesInit = useCallback(async engine => {
         await loadFull(engine);
@@ -11,14 +15,14 @@ export const Homepage = () => {
         await console.log(container);
     }, []);
     return (
-        <div className='text-black'>
-            <div className=''>
+        <div className='text-black py-10'>
+            <div className='px-36 flex flex-col'>
                 <div className='hover:scale-125 hover:duration-700 transition-all'>
                     <h1 className='pt-10 pb-2 text-gray-500 text-2xl font-semibold'>Special Issue on <span className='text-green-500'>D</span>istributed <span className='text-green-500'>M</span>achine <span className='text-green-500'>L</span>earning for
                         Edge/Fog Computing: <br></br>Challenges and Future Directions</h1>
-                        <h2 className='pb-8 text-gray-500'>14<sup>th</sup>-17<sup>th</sup> Nov, 2023 - Physical Conference * - Abu Dhabi, UAE</h2>
+                    <h2 className='pb-8 text-gray-500'>14<sup>th</sup>-17<sup>th</sup> Nov, 2023 - Physical Conference * - Abu Dhabi, UAE</h2>
                 </div>
-                <p className='px-36 text-left text-gray-700'>The intersection of Distributed Machine Learning (<span className='text-green-500'>DML</span>) and edge computing is a promising area of study that
+                <p className='text-left text-gray-700'>The intersection of Distributed Machine Learning (<span className='text-green-500'>DML</span>) and edge computing is a promising area of study that
                     offers big opportunities for many different industries and domains. As this field continues to develop, there
                     are a lot of interesting opportunities and paths to look into. When you combine machine learning models and
                     algorithms with edge devices, you can make decisions in real time and based on the situation. This makes
@@ -47,6 +51,39 @@ export const Homepage = () => {
                     manufacturing, transportation, agriculture, and energy to make real-time tracking, predictive maintenance,
                     personalised services, and efficient use of resources easier. Future study will look into these areas’ unique
                     problems and opportunities and try to come up with solutions that meet their specific needs.</p>
+                <br></br>
+                <h2 className='text-left text-xl'>Topics</h2>
+                <p className='text-left'>
+                    <br></br>
+                    Topics of interest for this special session include, but are not limited to:
+                    <ul className='text-left px-10'>
+                        <br></br>
+                        <li>Green communication for collaborative DML-enabled in edge networks</li>
+                        <li>Graph-based ML for sustainable communication and computation in edge networks.</li>
+                        <li>Sustainable computation and communications for future generation DML-enabled IoT application.</li>
+                        <li>DML and novel security mechanisms/protocol for edge networks.</li>
+                        <li>Collaborative DML approaches for edge-enabled production/smart education/smart grid applications.</li>
+                        <li>Representation learning and Industry 5.0 for autonomous Distributed Compute Continuum</li>
+                        <li>DML techniques for edge-enabled Industry 5.0/Healthcare/Smart City/Smart Agriculture/Smart Envi-
+                            ronment Monitoring.</li>
+                        <li>Distributed/Federated learning technique for training and data sharing in latency-critical data.</li>
+                        <li>DML and Blockchain-based technology for edge-enabled IoT applications.</li>
+                        <li>DML-based data/information integration in edge-supported application.</li>
+                        <li>DML and sustainable environment for the future digital society in edge networks.</li>
+                        <li>Advanced mobility management and DML scheme for edge-enabled transportation systems.</li>
+                    </ul>
+                </p>
+                <h1 className='py-10 text-gray-500 text-2xl font-semibold'><span className='text-green-500'>O</span>rganisations</h1>
+                <div className='flex flex-row justify-between ml-36'>
+                    <div className="w-full flex h-28"><img src={logoIIITL}></img></div>
+                    <div className="w-full flex h-28"><img src={logoNitP}></img></div>
+                    <div className="w-full flex h-28"><img src={logoIIITsricity}></img></div>
+                </div>
+                <h1 className='py-10 text-gray-500 text-2xl font-semibold'><span className='text-green-500'>Q</span>uestions and <span className='text-green-500'>f</span>urther <span className='text-green-500'>i</span>nformation</h1>
+                <div className='flex flex-row items-center justify-center gap-10'>
+                <p><a href="https://iiitl.ac.in/index.php/personnel/dr-mainak-adhikari/"><img className='w-full rounded-full h-28 md:h-36 md:w-36 pt-1 border-[6px] border-white bg-white shadow-lg shadow-cyan-200' src={mainakPhoto}></img></a></p>
+                <p className='text-gray-500'><a href="https://iiitl.ac.in/index.php/personnel/dr-mainak-adhikari/">Dr. Mainak Adhikari</a> <br></br> mainak@iiitl.ac.in</p>
+                </div>
             </div>
             <Particles
                 id="tsparticles"
