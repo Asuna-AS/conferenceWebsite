@@ -8,7 +8,7 @@ export const ImpDates = () => {
       <b>Paper submission Deadline:</b> January 15th, 2023 January 31st, 2023<br></br>
       <b>Acceptance notification:</b> February 19th, 2023<br></br>
       <b>Camera-ready submission:</b> March 17th, 2023<br></br>
-      <b>Conference Dates:</b> 14<sup>th</sup>-17<sup>th</sup> Nov, 2023
+      <b>Conference Dates:</b> 14<sup>th</sup>-17<sup>th</sup> November, 2023
       </p>
     </div>
   )
