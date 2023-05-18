@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/conferenceWebsite/static/css/main.3debea40.css",
-    "main.js": "/conferenceWebsite/static/js/main.f5f63f69.js",
+    "main.css": "/conferenceWebsite/static/css/main.5cba7311.css",
+    "main.js": "/conferenceWebsite/static/js/main.dbc9440d.js",
     "static/js/787.366d8aa5.chunk.js": "/conferenceWebsite/static/js/787.366d8aa5.chunk.js",
     "static/media/logoIIITsricity.jpg": "/conferenceWebsite/static/media/logoIIITsricity.248699ec52005fe2b4d1.jpg",
     "static/media/IIITL.png": "/conferenceWebsite/static/media/IIITL.6096b3bdd1a4ab80bba5.png",
@@ -9,12 +9,12 @@
     "static/media/National_Institute_of_Technology,_Patna_Logo.png": "/conferenceWebsite/static/media/National_Institute_of_Technology,_Patna_Logo.584cdd7471d8f139e674.png",
     "static/media/Dr.-Mainak-Adhikari.jpg": "/conferenceWebsite/static/media/Dr.-Mainak-Adhikari.22d21b98c2b9a44d515c.jpg",
     "index.html": "/conferenceWebsite/index.html",
-    "main.3debea40.css.map": "/conferenceWebsite/static/css/main.3debea40.css.map",
-    "main.f5f63f69.js.map": "/conferenceWebsite/static/js/main.f5f63f69.js.map",
+    "main.5cba7311.css.map": "/conferenceWebsite/static/css/main.5cba7311.css.map",
+    "main.dbc9440d.js.map": "/conferenceWebsite/static/js/main.dbc9440d.js.map",
     "787.366d8aa5.chunk.js.map": "/conferenceWebsite/static/js/787.366d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3debea40.css",
-    "static/js/main.f5f63f69.js"
+    "static/css/main.5cba7311.css",
+    "static/js/main.dbc9440d.js"
   ]
 }
