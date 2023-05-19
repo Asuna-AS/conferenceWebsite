@@ -42,9 +42,7 @@ const Navbar = () => {
         <div className='hover:text-white transition-all hover:ease-in-out hover:scale-105 p-2 hover:duration-700'>
           <NavLink exact className={({ isActive }) => isActive ? "text-white shadow-lg shadow-blue-200 p-2 transition duration-500 border-b-2 border-t-2 w-full border-white" : "text-black"} to="/program">Program</NavLink>
         </div>
-        <div className='hover:text-white transition-all hover:ease-in-out hover:scale-105 p-2 hover:duration-700'>
-          <NavLink exact className={({ isActive }) => isActive ? "text-white shadow-lg shadow-blue-200 p-2 transition duration-500 border-b-2 border-t-2 w-full border-white" : "text-black"} to="/previousEvents">Previous Events</NavLink>
-        </div>
+
       </div>
         <div className="block md:hidden lg:hidden">
             <HiMenuAlt3 className="w-10 h-10 ring-blue-300 text-gray-700 border border-gray-400 focus:ring-4 cursor-pointer rounded-lg p-2 transform transition duration-200 hover:scale-110" onClick={handleClick} />
@@ -68,9 +66,7 @@ const Navbar = () => {
             <div className='text-black transition-all hover:ease-in-out hover:scale-105 p-2 hover:duration-700'>
               <NavLink exact className={({ isActive }) => isActive ? "text-black shadow-lg shadow-blue-200 p-2 transition duration-500 border-l-4 w-full border-black" : "text-black"} to="/program">Program</NavLink>
             </div>
-            <div className='text-black transition-all hover:ease-in-out hover:scale-105 p-2 hover:duration-700'>
-              <NavLink exact className={({ isActive }) => isActive ? "text-black shadow-lg shadow-blue-200 p-2 transition duration-500 border-l-4 w-full border-black" : "text-black"} to="/previousEvents">Previous Events</NavLink>
-            </div>
+
           </nav>
         )
       }
