@@ -19,7 +19,6 @@ function App() {
           <Route exact path='/previousEvents' element={<PreviousEvents />}/>
           <Route exact path='/program' element={<Program />}/>
           <Route exact path='/submission' element={<Submission />} />
-          <Route exact path='/NewPage' element={<NewPage />} />
         </Routes>
       </HashRouter>
     </div>
