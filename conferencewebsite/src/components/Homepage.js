@@ -22,7 +22,7 @@ export const Homepage = () => {
                         Edge/Fog Computing: <br></br>Challenges and Future Directions</h1>
                     <h2 className='pb-8 text-gray-500'>14<sup>th</sup>-17<sup>th</sup> Nov, 2023 - Physical Conference * - Abu Dhabi, UAE</h2>
                 </div>
-                <p className='text-left text-gray-700'>The intersection of Distributed Machine Learning (<span className='text-green-500'>DML</span>) and edge computing is a promising area of study that
+                <p className='text-left text-gray-500'>The intersection of Distributed Machine Learning (<span className='text-green-500'>DML</span>) and edge computing is a promising area of study that
                     offers big opportunities for many different industries and domains. As this field continues to develop, there
                     are a lot of interesting opportunities and paths to look into. When you combine machine learning models and
                     algorithms with edge devices, you can make decisions in real time and based on the situation. This makes
@@ -52,8 +52,8 @@ export const Homepage = () => {
                     personalised services, and efficient use of resources easier. Future study will look into these areas’ unique
                     problems and opportunities and try to come up with solutions that meet their specific needs.</p>
                 <br></br>
-                <h2 className='text-left text-xl'>Topics</h2>
-                <p className='text-left'>
+                <h2 className='text-left text-gray-500 text-xl'>Topics</h2>
+                <p className='text-left text-gray-500'>
                     <br></br>
                     Topics of interest for this special session include, but are not limited to:
                     <ul className='text-left px-10'>
