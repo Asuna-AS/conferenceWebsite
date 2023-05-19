@@ -6,6 +6,7 @@ import { PreviousEvents } from './components/PreviousEvents';
 import { Program } from './components/Program';
 import { Submission } from './components/Submission';
 import Navbar from './components/NavBar';
+import { NewPage } from './components/NewPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/previousEvents' element={<PreviousEvents />}/>
           <Route exact path='/program' element={<Program />}/>
           <Route exact path='/submission' element={<Submission />} />
+          <Route exact path='/NewPage' element={<NewPage />} />
         </Routes>
       </HashRouter>
     </div>
