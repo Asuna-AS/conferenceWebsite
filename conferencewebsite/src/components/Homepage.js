@@ -74,7 +74,7 @@ export const Homepage = () => {
                     </ul>
                 </p>
                 <h1 className='py-10 text-gray-500 text-2xl font-semibold'><span className='text-green-500'>O</span>rganisations</h1>
-                <div className='flex flex-row justify-between ml-36'>
+                <div className='flex flex-col justify-between ml-36 md:flex-row'>
                     <div className="w-full flex h-28"><img src={logoIIITL}></img></div>
                     <div className="w-full flex h-28"><img src={logoNitP}></img></div>
                     <div className="w-full flex h-28"><img src={logoIIITsricity}></img></div>

@@ -21,6 +21,7 @@ const Navbar = () => {
   //change header by scrolling
   window.addEventListener('scroll', onChangeHeader)
   return (
+    <header>
     <div className='flex flex-row px-20 py-4 h-32 poppins items-center bg-blue-300 shadow-lg shadow-blue-200'>
       <div className='max-w-4xl mx-auto mt-6'>
         <img className='rounded-full h-28 w-28 md:h-36 md:w-36 pb-1 border-white bg-white shadow-lg shadow-blue-300' src={logo}></img>
@@ -48,9 +49,10 @@ const Navbar = () => {
         <div className="block md:hidden lg:hidden">
             <HiMenuAlt3 className="w-10 h-10 ring-blue-300 text-gray-700 border border-gray-400 focus:ring-4 cursor-pointer rounded-lg p-2 transform transition duration-200 hover:scale-110" onClick={handleClick} />
         </div>
+    </div>
       {
         mobileNav&&(
-          <nav className="bg-white shadow-lg mx-6 mt-2 p-4 rounded-lg border border-gray-300 py-4 w-full block md:hidden lg:hidden z-50">
+          <nav className="bg-white shadow-lg mx-6 p-4 rounded-lg border border-gray-300 py-4 w-full block md:hidden lg:hidden z-50">
             <div className='text-black transition-all hover:ease-in-out hover:scale-105 p-2 hover:duration-700'>
               <NavLink exact className={({ isActive }) => isActive ? "text-black shadow-lg shadow-blue-200 p-2 transition duration-500 border-l-4 w-full border-black" : "text-black"} to="/">Homepage</NavLink>
             </div>
@@ -72,7 +74,7 @@ const Navbar = () => {
           </nav>
         )
       }
-    </div>
+    </header>
   );
 }
 export default Navbar;
