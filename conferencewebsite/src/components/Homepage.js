@@ -18,7 +18,7 @@ export const Homepage = () => {
         <div className='text-black py-10'>
             <div className='px-36 flex flex-col'>
                 <div className='hover:scale-125 hover:duration-700 transition-all'>
-                    <h1 className='pt-10 pb-2 text-gray-500 text-2xl font-semibold'>Special Issue on <span className='text-green-500'>D</span>istributed <span className='text-green-500'>M</span>achine <span className='text-green-500'>L</span>earning for
+                    <h1 className='pt-10 pb-2 text-gray-500 text-2xl font-semibold'>Special session on <span className='text-green-500'>D</span>istributed <span className='text-green-500'>M</span>achine <span className='text-green-500'>L</span>earning for
                         Edge/Fog Computing: <br></br>Challenges and Future Directions</h1>
                     <h2 className='pb-8 text-gray-500'>14<sup>th</sup>-17<sup>th</sup> Nov, 2023 - Physical Conference * - Abu Dhabi, UAE</h2>
                 </div>

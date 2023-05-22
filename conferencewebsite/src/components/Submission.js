@@ -11,6 +11,9 @@ export const Submission = () => {
         <br></br><br></br>  
         <span className='text-green-500 px-10'>Special Issue on "Artificial Intelligence for Next-generation Edge Networks", SN Computer Science, (SCOPUS), Springer. <a className="px-10" href='https://www.springer.com/journal/42979'>https://www.springer.com/journal/42979</a></span>
       </p>
+      <div>
+        <a href='https://icnetlab.org/cyber-science2023/picom/index.html'><button className='text-white bg-blue-500 p-3 rounded-2xl'>Submission Link</button></a>
+      </div>
     </div>
   )
 }
