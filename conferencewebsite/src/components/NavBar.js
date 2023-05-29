@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
-import logo from "../components/Final_Logo_IIITL.png";
+import logo from "../components/IEEE-Logo.jpg";
 import { HiMenuAlt3 } from 'react-icons/hi';
 const Navbar = () => {
   const [changeHeader, setChangeHeader] = useState(false)
@@ -23,8 +23,8 @@ const Navbar = () => {
   return (
     <header>
     <div className='flex flex-row px-20 py-4 h-32 poppins items-center bg-blue-300 shadow-lg shadow-blue-200'>
-      <div className='max-w-4xl mx-auto mt-6'>
-        <img className='rounded-full h-28 w-28 md:h-36 md:w-36 pb-1 border-white bg-white shadow-lg shadow-blue-300' src={logo}></img>
+      <div className='max-w-4xl mx-auto'>
+        <img className='w-44 rounded-lg shadow-lg shadow-blue-200' src={logo}></img>
       </div>
       <div className='md:flex hidden gap-5 w-2/3'>
         <div className='hover:text-white transition-all hover:ease-in-out hover:scale-105 p-2 hover:duration-700'>
