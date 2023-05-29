@@ -9,7 +9,7 @@ export const Submission = () => {
         <br></br><br></br>A “Best Paper Award” Certificate will be conferred on the author(s) of a paper presented at the Special Session, selected by the Chairs based on the scientific significance, originality, and outstanding technical quality of the paper, as also assessed by the evaluations of the members of the Program Committee.
         <br></br><br></br>Best papers presented at the Special Session will be selected, and the corresponding authors will be invited to submit an extended version of their papers for possible publications in:
         <br></br><br></br>  
-        <span className='text-green-500 px-10'>Special Session on "Artificial Intelligence for Next-generation Edge Networks", SN Computer Science, (SCOPUS), Springer. <a className="px-10" href='https://www.springer.com/journal/42979'>https://www.springer.com/journal/42979</a></span>
+        <span className='text-green-500 px-10'>Special Issue on "Artificial Intelligence for Next-generation Edge Networks", SN Computer Science, (SCOPUS), Springer. <a className="px-10" href='https://www.springer.com/journal/42979'>https://www.springer.com/journal/42979</a></span>
       </p>
       <div>
         <a href='https://icnetlab.org/cyber-science2023/picom/index.html'><button className='text-white bg-blue-500 p-3 rounded-2xl'>Submission Link</button></a>
