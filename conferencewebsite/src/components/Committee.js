@@ -7,7 +7,7 @@ export const Committee = () => {
       <p className='text-gray-500'>
       Dr. Mainak Adhikari, Head of Department and Assistant Professor, Indian Institute of Information Technology Lucknow, India. (Email: mainak@iiitl.ac.in)
       <br></br>Dr. Amit Kumar Singh, Department of Computer Science and Engineering, National Institute of Technology Patna, India. (Email: amit.singh@nitp.ac.in )
-      <br></br>Dr. Abhishek Hazra, Communications & Networks Lab, Department of Electrical and Computer Engineering, National University of Singapore, Singapore, (Email: a.hazra@ieee.org).
+      <br></br>Dr. Abhishek Hazra, Department of Computer Science and Engineering, Indian Institute of Information Technology Sri City, India. (Email: a.hazra@ieee.org).
       </p>
       <h1 className='text-gray-500 text-xl font-semibold'>Publicity Chair</h1>
       <p className='text-gray-500'>
