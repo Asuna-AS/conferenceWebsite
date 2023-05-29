@@ -2,7 +2,7 @@ import React from 'react'
 import Particles from 'react-particles';
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
-import logoIIITL from "../components/IEEE-Logo.png"
+import logoIIITL from "../components/IEEE-Logo.jpg"
 import logoNitP from "../components/National_Institute_of_Technology,_Patna_Logo.png"
 import logoIIITsricity from "../components/logoIIITsricity.jpg"
 import mainakPhoto from "../components/Dr.-Mainak-Adhikari.jpg"
