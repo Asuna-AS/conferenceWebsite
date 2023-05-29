@@ -26,15 +26,15 @@ export const Committee = () => {
       Dr. Ali Kashif Bashir, Manchester Metropolitan University, United Kingdom
       <br></br>Prof. Shahid Mumtaz, Instituto de Telecomunicações, Portugal 
       <br></br>Prof. Haris Gačanin, IEEE Fellow, RWTH Aachen University, Germany
-      <br></br>Prof. Danda B Rawat, Howard University, USA
-      <br></br>Prof. Ajith Abraham, Machine Intelligence Research Labs (MIR Labs), USA
-      <br></br>Prof. Guangjie Han, Hohai University, China
-      <br></br>Dr. Venki Balasubramaniam, Federation University, Australia 
+      <br></br>Dr. Meghan Karry, Northwestern University, USA
+      <br></br>Dr. Prasun Chandra Tripathi, University of Sheffield, UK
+      <br></br>Dr. Ambigavathi Munusamy, Indian Institute of Information Technology Una, India
+      <br></br>Dr. Abdul WAHID, National University of Ireland, Ireland
       <br></br>Dr. Indranil Sarkar, University of Oslo, Norway
       <br></br>Dr. Praveen Kumar Donta, Distributed Systems Group, TU Wien, Austria
       <br></br>Dr. Sahil Garg, École de technologie supérieure, Université du Québec, Canada   
-      <br></br>Dr. Alakesh Kalita, NUS Singapore
-      <br></br>Dr. Satish Narayana Srirama, University of Hyderabad  
+      <br></br>Dr. Alakesh Kalita, National University of Singapore Singapore
+      <br></br>Dr. Satish Narayana Srirama, University of Hyderabad, India  
       </p>
     </div>
   )
